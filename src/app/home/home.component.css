@@ -1,0 +1,20 @@
+.row {
+    margin-top: 30%;
+}
+
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav {
+    width: 20%;
+    background-color: aquamarine;
+}
+
+/* mat-list-item {
+    justify-content: space-between;
+} */
+
+.close {
+    margin-left: 95%;
+}

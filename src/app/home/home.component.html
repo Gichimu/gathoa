@@ -1,0 +1,15 @@
+<mat-sidenav-container >
+    <mat-sidenav #sidenav [(opened)]="opened">
+        <mat-list>
+            <mat-list-item>
+                
+                <mat-action-row><button mat-button class="close" (click)="sidenav.close()"></button></mat-action-row>
+              
+                
+            </mat-list-item>
+            
+        </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content><button mat-button (click)="sidenav.open()" mat-button><mat-icon matListIcon>menu</mat-icon></button> </mat-sidenav-content>
+</mat-sidenav-container>
+
