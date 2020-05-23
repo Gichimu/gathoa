@@ -1,11 +1,15 @@
 <mat-sidenav-container >
-    <mat-sidenav #sidenav [(opened)]="opened">
-        <mat-list>
-            <mat-list-item>
+    <mat-sidenav #sidenav [(opened)]="opened" text-align="center">
+        <mat-list >
+            <mat-list-item align="end">
                 
-                <mat-action-row><button mat-button class="close" (click)="sidenav.close()"></button></mat-action-row>
-              
+                <button mat-button class="close" (click)="sidenav.close()"><mat-icon  matListIcon>close</mat-icon></button>
                 
+                
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="sidenavItems" align="center">
+                <img class="avatar" src="assets/imgs/gathoa.jpg" alt="">
             </mat-list-item>
             
         </mat-list>
